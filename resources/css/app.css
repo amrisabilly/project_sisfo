@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    button {
+        @apply bg-gradient-to-r from-[#FFAC17] to-[#FF7B01] py-[12px] px-[40px] rounded-xl font-bold text-[28px];
+    }
+}
